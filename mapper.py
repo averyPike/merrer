@@ -6,5 +6,5 @@ for line in sys.stdin:
     line = line.strip()
     words = line.split()
     for word in words:
-        if word.isalpha():  # Only count words made up of letters
+        if word.isalpha():
             print('%s\t%s' % (word, 1))
